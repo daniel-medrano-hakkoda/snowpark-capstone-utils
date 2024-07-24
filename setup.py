@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 from connection import __version__
 
@@ -10,5 +10,9 @@ setup(
     author='Daniel Medrano',
     author_email='daniel_medrano@hakkoda.io',
 
-    py_modules=['connection'],
+    py_modules=find_packages(),
+
+    install_requires=[
+        'snowflake-snowpark-python',
+    ],
 )
