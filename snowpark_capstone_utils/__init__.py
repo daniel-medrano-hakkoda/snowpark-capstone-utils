@@ -3,8 +3,6 @@ from getpass import getpass
 import configparser
 from snowflake.snowpark import Session
 
-__version__ = '0.1.0'
-
 DEFAULT_CONFIG_FILE_PATH = './snowflake_creds.config'
 DEFAULT_ACCOUNT = 'jsa18243'
 DEFAULT_USER =  'your_name@hakkoda.io'

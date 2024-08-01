@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-from snowpark_capstone_utils import __version__
+__version__ = '0.1.0'
 
 setup(
     name='snowpark-capstone-utils',
